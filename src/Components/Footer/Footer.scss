@@ -1,0 +1,18 @@
+@import '../../Common/Colors.scss';
+
+.footer{
+     background-color: $secondary-color;
+     margin-top: 30px;
+     height: 72px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: $font-primary;
+     flex-direction: column;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+@media only screen and (max-width:768px){
+     .footer{
+          width: 100%;
+     }
+}

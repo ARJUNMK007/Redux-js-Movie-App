@@ -1,0 +1,77 @@
+@import '../../Common/Colors.scss';
+
+.movie-section{
+        display: flex;
+        justify-content: space-between;
+    
+}
+.section-left{
+   
+   
+    color: $font-primary;
+    width: 800px;
+    padding: 10px;
+    margin: 10px;
+      span{
+       
+        padding-top:20px;
+      }
+      p{
+        padding-top: 30px;
+      }
+      h3{
+        padding-top: 20px;
+        color: $font-secondary;
+      }
+
+}
+.movie-title{
+    h2{
+         color: $font-primary;
+         padding-top: 30px;
+         padding-bottom: 30px;
+    }
+    
+}
+.movie-desc{
+    span{
+
+        padding-top: 30px;
+    }
+}
+.movie-info{
+   display: flex;
+   flex-direction: row;
+   
+}
+
+.left-info{
+    display: flex;
+    flex-direction: column;
+}
+.right-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    span{
+        color: #008efa;
+    }
+}
+
+.section-right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:768px){
+    .movie-section{
+        width:100%
+    }
+    .section-right{
+           align-items: center;
+           width:100%;
+    }
+}
+.movie-props span{
+    color: #008efa;
+}

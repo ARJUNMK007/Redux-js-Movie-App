@@ -1,0 +1,17 @@
+@import '../src/Common/Colors.scss';
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color: $primary-color;
+}
+.container{
+    margin: 0px 40px;
+}
+a{
+    text-decoration: none;
+}
